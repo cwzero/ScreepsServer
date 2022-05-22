@@ -1,0 +1,9 @@
+services:
+  screeps:
+    build: ./screeps
+    ports:
+      - 21025
+    volumes:
+      - screeps:/screeps
+volumes:
+  screeps:
